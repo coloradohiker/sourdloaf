@@ -156,7 +156,7 @@ BaseFont 16px; BaseLine 30px; ScaleFactor 1.333 (Perfect Fourth)
 body {
     padding: 0;
     margin: 0;
-    background: #151515;
+    background: #0f1633;
     color: #fff;
     font-size: 16px;
     line-height: 30px;
@@ -299,34 +299,6 @@ a.btn-bordered {
     overflow:hidden;
 }
 
-.sven-badge {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 2em;
-    margin: 0 auto;
-    width: 86%;
-    font-size: 0.438em;
-    line-height: 1.875em;
-    text-transform: uppercase;
-    letter-spacing: 0.0625em;
-    z-index: 10;
-}
-
-.sven-badge a {
-    color: #707070;
-}
-
-.sven-badge span {
-    display: inline-block;
-    font-weight: bold;
-    border-bottom: 1px dotted;
-}
-
-.sven-badge:hover span{
-    color: #DDC225;
-    border-bottom: 1px dotted transparent;
-}
 
 /* 3.2 Preloader Spinner
 https://codepen.io/glosie/pen/GgqBXR
@@ -413,46 +385,11 @@ https://codepen.io/glosie/pen/GgqBXR
 -------------------------------------------------------------- */
 #minimos-1 {
     font-family: "Raleway", sans-serif;
-    background: #151515;
+    background: #00020d;
 }
 
-#minimos-2, #minimos-2 .spinner:after {
-    font-family: "Abel", sans-serif;
-    background: #280B29;
-}
-
-#minimos-3, #minimos-3 .spinner:after {
-    font-family: "Nunito", sans-serif;
-    background: #00A1E0;
-}
-
-#minimos-3 .sven-badge a {
-    color: #CCCCCC;
-}
-
-#minimos-3 .sven-badge:hover span {
-    color: #FFD61F;
-}
-
-#minimos-4, #minimos-4 .spinner:after {
-    font-family: "Josefin Sans", sans-serif;
-    background: #F85E25;
-}
-
-#minimos-4 .sven-badge a {
-    color: #CCCCCC;
-}
-
-#minimos-4 .sven-badge:hover span {
-    color: #F8EB31;
-}
-
-#minimos-4 li a {
-    color: #E0E0E0;
-}
-
-#minimos-4 li a:hover {
-    color: #FFFFFF;
+.logo {
+  margin-bottom: 10%;
 }
 
 /* 3.4 Layout Alignment
