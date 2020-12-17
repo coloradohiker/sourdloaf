@@ -392,7 +392,7 @@ https://codepen.io/glosie/pen/GgqBXR
   margin-bottom: 10%;
 }
   .logo img {
-    max-width: 300px;
+    max-width: 120px;
   }
 
 /* 3.4 Layout Alignment
@@ -420,6 +420,9 @@ https://codepen.io/glosie/pen/GgqBXR
 
     .main-content {
         width: 80%;
+    }
+    .logo img {
+      max-width: 300px;
     }
 }
 
