@@ -108,7 +108,7 @@ $(window).on("load", function() {
             $.each(paraSplit.chars, function(index, el) {
                 var textColor = $(el).css("color");
                 var tweenPos = "end+=" + (index) * 0.04;
-                animTL.fromTo($(el), 0.8, {
+                animTL.fromTo($(el), 0, {
                     opacity: 0,
                     textShadow: "0 0 " + blurRadius + " " + textColor,
                     scale: 1.2,

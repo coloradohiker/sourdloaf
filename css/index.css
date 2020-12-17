@@ -391,6 +391,9 @@ https://codepen.io/glosie/pen/GgqBXR
 .logo {
   margin-bottom: 10%;
 }
+  .logo img {
+    max-width: 300px;
+  }
 
 /* 3.4 Layout Alignment
 -------------------------------------------------------------- */
